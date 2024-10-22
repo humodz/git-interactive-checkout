@@ -1,13 +1,13 @@
 # git-interactive-checkout
 
-Short script for switching branches. 
+Simple command for switching branches. 
 
 - Supports fuzzy searching
-- Display all branches, including ones not avalable locally
+- Displays all branches, including ones not available locally
 
 ## Demo
 
-![demo](demo.gif)
+![demo](https://github.com/humodz/git-interactive-checkout/raw/master/demo.gif)
 
 ## Installation
 
@@ -24,4 +24,4 @@ git-ico
 git-interactive-checkout
 ```
 
-Type to filter by branch name, Up/Down to select, Enter to confirm.
+Type to filter, Up/Down to select, Enter to confirm.
