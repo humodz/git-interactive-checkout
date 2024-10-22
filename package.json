@@ -1,0 +1,21 @@
+{
+  "name": "@humodz/git-interactive-checkout",
+  "version": "0.1.0",
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "git-interactive-checkout": "./index.js",
+    "git-ico": "./index.js"
+  },
+  "scripts": {
+  },
+  "dependencies": {
+    "fuse.js": "^6.6.2",
+    "inquirer": "^9.2.0",
+    "inquirer-autocomplete-prompt": "^3.0.0"
+  }
+}
