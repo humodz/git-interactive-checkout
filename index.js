@@ -8,16 +8,6 @@ import { spawn } from 'node:child_process';
 
 async function main() {
 	inquirer.registerPrompt('autocomplete', autocomplete);
-	
-	const args = process.argv.slice(2);
-
-	const shouldFetch = args.includes('-f');
-
-	if (shouldFetch) {
-		await fetchEverything();
-		console.log();
-	}
-
 	const branches = await listBranches();
 
 	if (branches.total === 0) {
@@ -103,10 +93,6 @@ async function listBranches() {
 
 function uniqueSortedNames(branches) {
 	return unique(branches.map(it => it.name)).sort();
-}
-
-async function fetchEverything() {
-	await run('git', ['fetch', '--all']);
 }
 
 async function checkout(branchName) {
