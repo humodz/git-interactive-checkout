@@ -1,10 +1,18 @@
 {
   "name": "@humodz/git-interactive-checkout",
-  "version": "0.1.4",
-  "description": "Simple command for switching branches",
-  "keywords": ["git", "checkout"],
+  "version": "0.1.6",
+  "description": "A simple command for switching branches",
+  "keywords": [
+    "git",
+    "checkout"
+  ],
   "author": "Hugo Dzin (https://github.com/humodz)",
   "license": "ISC",
+  "homepage": "https://github.com/humodz/git-interactive-checkout",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/humodz/git-interactive-checkout.git"
+  },
   "type": "module",
   "files": [
     "index.js"

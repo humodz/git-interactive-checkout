@@ -1,6 +1,6 @@
 # git-interactive-checkout
 
-Simple command for switching branches. 
+A simple command for switching branches. 
 
 - Supports fuzzy searching
 - Displays all branches, including ones not available locally
