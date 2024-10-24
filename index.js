@@ -45,11 +45,6 @@ async function main() {
 		},
 	]);
 
-	if (args.includes('--just-print')) {
-		console.log(answers.branch);
-		return;
-	}
-
 	console.log();
 	await checkout(answers.branch);
 }
